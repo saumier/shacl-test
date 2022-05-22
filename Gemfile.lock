@@ -1,0 +1,237 @@
+GIT
+  remote: https://github.com/dryruby/sxp.rb.git
+  revision: 7133e42f43bb01cab9c20f591db2dd8d8afacf60
+  branch: develop
+  specs:
+    sxp (1.2.2)
+      matrix
+      rdf (~> 3.2)
+
+GIT
+  remote: https://github.com/ruby-rdf/json-ld.git
+  revision: 48e1e1a891fadaf936cfea15a48ee56efcae2abb
+  branch: develop
+  specs:
+    json-ld (3.2.1)
+      htmlentities (~> 4.3)
+      json-canonicalization (~> 0.3)
+      link_header (~> 0.0, >= 0.0.8)
+      multi_json (~> 1.15)
+      rack (~> 2.2)
+      rdf (~> 3.2)
+
+GIT
+  remote: https://github.com/ruby-rdf/linkeddata.git
+  revision: e91cd090cfa90e8b5fccccb39a5359754ce2ba61
+  branch: develop
+  specs:
+    linkeddata (3.2.0)
+      json-ld (~> 3.2)
+      json-ld-preloaded (~> 3.2)
+      ld-patch (~> 3.2)
+      nokogiri (~> 1.12, >= 1.12.5)
+      rdf (~> 3.2)
+      rdf-aggregate-repo (~> 3.2)
+      rdf-hamster-repo (~> 3.2)
+      rdf-isomorphic (~> 3.2)
+      rdf-json (~> 3.2)
+      rdf-microdata (~> 3.2)
+      rdf-n3 (~> 3.2)
+      rdf-normalize (~> 0.5)
+      rdf-ordered-repo (~> 3.2)
+      rdf-rdfa (~> 3.2)
+      rdf-rdfxml (~> 3.2)
+      rdf-reasoner (~> 0.8)
+      rdf-tabular (~> 3.2)
+      rdf-trig (~> 3.2)
+      rdf-trix (~> 3.2)
+      rdf-turtle (~> 3.2)
+      rdf-vocab (~> 3.2)
+      rdf-xsd (~> 3.2)
+      shacl (~> 0.2)
+      shex (~> 0.7)
+      sparql (~> 3.2)
+      sparql-client (~> 3.2)
+
+GIT
+  remote: https://github.com/ruby-rdf/rdf-turtle.git
+  revision: 6c3a535b4f00b5304062c805ce0ccdda94ca0555
+  branch: develop
+  specs:
+    rdf-turtle (3.2.0)
+      ebnf (~> 2.3)
+      rdf (~> 3.2)
+
+GIT
+  remote: https://github.com/ruby-rdf/rdf.git
+  revision: 567061c23ce095463ef01e2e6c5221813bf72c49
+  branch: develop
+  specs:
+    rdf (3.2.7)
+      link_header (~> 0.0, >= 0.0.8)
+
+GIT
+  remote: https://github.com/ruby-rdf/shacl.git
+  revision: b8353ac0df3e885b58e50cae5d03141466392d07
+  branch: develop
+  specs:
+    shacl (0.2.1)
+      json-ld (~> 3.2)
+      rdf (~> 3.2)
+      sparql (~> 3.2)
+      sxp (~> 1.2)
+
+GIT
+  remote: https://github.com/ruby-rdf/sparql.git
+  revision: 2358ded08655beec3d012813c71be71dab553f5d
+  branch: develop
+  specs:
+    sparql (3.2.3)
+      builder (~> 3.2)
+      ebnf (~> 2.2, >= 2.3.1)
+      logger (~> 1.5)
+      rdf (~> 3.2, >= 3.2.7)
+      rdf-aggregate-repo (~> 3.2)
+      rdf-xsd (~> 3.2)
+      sparql-client (~> 3.2, >= 3.2.1)
+      sxp (~> 1.2, >= 1.2.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    amazing_print (1.4.0)
+    bcp47 (0.3.3)
+      i18n
+    builder (3.2.4)
+    concurrent-ruby (1.1.10)
+    connection_pool (2.2.5)
+    ebnf (2.3.1)
+      amazing_print (~> 1.4)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      scanf (~> 1.0)
+      sxp (~> 1.2)
+      unicode-types (~> 1.7)
+    haml (5.2.2)
+      temple (>= 0.8.0)
+      tilt
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    htmlentities (4.3.4)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    json-canonicalization (0.3.0)
+    json-ld-preloaded (3.2.0)
+      json-ld (~> 3.2)
+      rdf (~> 3.2)
+    ld-patch (3.2.0)
+      ebnf (~> 2.2)
+      rdf (~> 3.2)
+      rdf-xsd (~> 3.2)
+      sparql (~> 3.2)
+      sxp (~> 1.2)
+    link_header (0.0.8)
+    logger (1.5.1)
+    matrix (0.4.2)
+    mini_portile2 (2.8.0)
+    multi_json (1.15.0)
+    net-http-persistent (4.0.1)
+      connection_pool (~> 2.2)
+    nokogiri (1.13.6)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
+    public_suffix (4.0.7)
+    racc (1.6.0)
+    rack (2.2.3)
+    rdf-aggregate-repo (3.2.0)
+      rdf (~> 3.2)
+    rdf-hamster-repo (3.2.1)
+      hamster (~> 3.0)
+      rdf (~> 3.2, >= 3.2.1)
+    rdf-isomorphic (3.2.1)
+      rdf (~> 3.2)
+    rdf-json (3.2.0)
+      rdf (~> 3.2)
+    rdf-microdata (3.2.1)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.13)
+      rdf (~> 3.2)
+      rdf-rdfa (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-n3 (3.2.1)
+      ebnf (~> 2.2)
+      rdf (~> 3.2)
+      sparql (~> 3.2)
+      sxp (~> 1.2)
+    rdf-normalize (0.5.0)
+      rdf (~> 3.2)
+    rdf-ordered-repo (3.2.1)
+      rdf (~> 3.2, >= 3.2.1)
+    rdf-rdfa (3.2.0)
+      haml (~> 5.2)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      rdf-aggregate-repo (~> 3.2)
+      rdf-vocab (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-rdfxml (3.2.0)
+      htmlentities (~> 4.3)
+      rdf (~> 3.2)
+      rdf-rdfa (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-reasoner (0.8.0)
+      rdf (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-tabular (3.2.1)
+      addressable (~> 2.8)
+      bcp47 (~> 0.3, >= 0.3.3)
+      json-ld (~> 3.2)
+      rdf (~> 3.2, >= 3.2.7)
+      rdf-vocab (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-trig (3.2.0)
+      ebnf (~> 2.2)
+      rdf (~> 3.2)
+      rdf-turtle (~> 3.2)
+    rdf-trix (3.2.0)
+      rdf (~> 3.2)
+      rdf-xsd (~> 3.2)
+    rdf-vocab (3.2.1)
+      rdf (~> 3.2, >= 3.2.4)
+    rdf-xsd (3.2.1)
+      rdf (~> 3.2)
+      rexml (~> 3.2)
+    rexml (3.2.5)
+    scanf (1.0.0)
+    shex (0.7.1)
+      ebnf (~> 2.2)
+      htmlentities (~> 4.3)
+      json-ld (~> 3.2)
+      json-ld-preloaded (~> 3.2)
+      rdf (~> 3.2)
+      rdf-xsd (~> 3.2)
+      sparql (~> 3.2)
+      sxp (~> 1.2)
+    sparql-client (3.2.1)
+      net-http-persistent (~> 4.0, >= 4.0.1)
+      rdf (~> 3.2, >= 3.2.6)
+    temple (0.8.2)
+    tilt (2.0.10)
+    unicode-types (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json-ld!
+  linkeddata!
+  rdf!
+  rdf-turtle!
+  shacl!
+  sparql!
+  sxp!
+
+BUNDLED WITH
+   2.1.4
