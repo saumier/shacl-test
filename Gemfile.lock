@@ -54,6 +54,14 @@ GIT
       sparql-client (~> 3.2)
 
 GIT
+  remote: https://github.com/ruby-rdf/rdf-aggregate-repo.git
+  revision: 559d5a0862f616ef584d0004c58436eb1ecd9e67
+  branch: develop
+  specs:
+    rdf-aggregate-repo (3.2.0)
+      rdf (~> 3.2)
+
+GIT
   remote: https://github.com/ruby-rdf/rdf-turtle.git
   revision: 6c3a535b4f00b5304062c805ce0ccdda94ca0555
   branch: develop
@@ -72,7 +80,7 @@ GIT
 
 GIT
   remote: https://github.com/ruby-rdf/shacl.git
-  revision: b8353ac0df3e885b58e50cae5d03141466392d07
+  revision: dd2925b24780effcdcf646a722b2824c288d6cac
   branch: develop
   specs:
     shacl (0.2.1)
@@ -145,8 +153,6 @@ GEM
     public_suffix (4.0.7)
     racc (1.6.0)
     rack (2.2.3)
-    rdf-aggregate-repo (3.2.0)
-      rdf (~> 3.2)
     rdf-hamster-repo (3.2.1)
       hamster (~> 3.0)
       rdf (~> 3.2, >= 3.2.1)
@@ -228,6 +234,7 @@ DEPENDENCIES
   json-ld!
   linkeddata!
   rdf!
+  rdf-aggregate-repo!
   rdf-turtle!
   shacl!
   sparql!
